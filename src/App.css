@@ -2,37 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #94d5f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tituloHome{
+  font-size: 22px;
+  text-decoration: none;
+  color: #0a6d97;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.imgHome{
+  margin-top: 10px;
+border-radius: 10px;}
+
+.cardList{
+  
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cardList hr{
+  width: 460px;
+  height: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formBeer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.formBeer button{
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
